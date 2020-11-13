@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 
-//linked list chosen as it can have any size
+//linked list chosen as it can expand to any size
 public class LevelOrderTraverse {
     public static List<List<Integer>> levelOrder(TreeNode<Integer> root) {
         Queue<TreeNode<Integer>> nodeQueue = new LinkedList<TreeNode<Integer>>();
